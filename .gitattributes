@@ -1,0 +1,9 @@
+* text=auto
+*.png binary
+tests/ export-ignore
+demo/ export-ignore
+project.godot export-ignore
+icon.png export-ignore
+screenshots/ export-ignore
+render*.py export-ignore
+.git* export-ignore

@@ -1,0 +1,10 @@
+# Godot 4 generated caches; retain script UID files.
+.godot/
+*.import
+/export/
+/exports/
+/build/
+/dist/
+.DS_Store
+Thumbs.db
+Desktop.ini
