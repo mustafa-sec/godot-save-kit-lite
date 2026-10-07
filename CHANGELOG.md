@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Documentation: corrected the licence of the full GodotSaveKit in FEATURES-COMPARISON.md (single-developer commercial licence, Fortress MSSP LLC; not MIT). Lite is unchanged and remains MIT. Lite runtime unchanged.
+
 ## 1.0.1
 - Remove promotional URL from plugin metadata; retain version 1.0.1.
 - Add AI disclosure and repository packaging hygiene.

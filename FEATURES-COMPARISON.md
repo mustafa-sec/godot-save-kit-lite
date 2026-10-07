@@ -1,6 +1,6 @@
 # Lite vs full GodotSaveKit
 
-Lite is a smaller functional subset with an original implementation, not copied paid-kit code. This table describes inspected full-kit implementation files, not a verification of storefront contents. **Both Lite and full are MIT-licensed**, not proprietary tiers: see Lite `LICENSE` and full `gsk_project/LICENSE` (also `GodotSaveKit_LICENSE.txt`). Payment does not change the full kit's MIT license.
+Lite is a smaller functional subset with an original implementation, not copied paid-kit code. This table describes inspected full-kit implementation files, not a verification of storefront contents. **Licences differ.** GodotSaveKit Lite is MIT-licensed: see the `LICENSE` file in this repository. The full GodotSaveKit is sold under a single-developer commercial licence (Fortress MSSP LLC) and is **not** MIT; its licence terms are supplied with the purchase.
 
 Full-source citations below are workspace-relative provenance references, not links to a public repository. They were re-checked against implementation files; functions are named so citations remain useful if lines shift.
 
@@ -16,7 +16,7 @@ Full-source citations below are workspace-relative provenance references, not li
 | Settings service | None | Audio bus volume, window mode/resolution, vsync and action-event persistence/application | `gsk_project/addons/godot_save_kit/settings_service.gd`, `set_audio_bus_volume_db` through `apply_settings` (121–167); window calls skipped when headless |
 | Input rebinding | None | Capture, cancellation and conflict queries; caller feeds events | `gsk_project/addons/godot_save_kit/input_rebinding.gd`, `begin_capture`, `cancel_capture`, `feed_event`, `find_conflicts` (10–56) |
 | Test evidence | 26 Lite checks, 0 failures in final build rerun | 73 checks, 0 failures, not 73 separate test files | `gsk_project/addons/godot_save_kit/tests/run.gd`, runner/counter; `tests/test_settings.gd` in the same addon and `gsk_project/tests/test_save.gd`; recorded result/count reconciliation: `GodotSaveKit_TEST_REPORT.md:7,125,140` |
-| License | MIT | MIT | `gsk_project/LICENSE` (permission, notice retention and warranty disclaimer); matching `GodotSaveKit_LICENSE.txt:1–21` |
+| License | MIT (see this repository's `LICENSE`) | Single-developer commercial licence (Fortress MSSP LLC); not MIT | Licence terms supplied with the full kit purchase |
 
 Lite evidence: `test_output_v1.0.1.txt`, final rerun, 26 checks / 0 failures. Full evidence: `GodotSaveKit_TEST_REPORT.md` and `GodotSaveKit_LAUNCH-SHEET.md:35–50`. Both recorded test scopes are **Godot 4.7.2 stable, headless macOS only**; neither table nor counts imply GUI, power-loss, export or cross-platform testing. The full suite is not inherited by Lite. Neither kit's rename-based replacement is a power-loss durability guarantee.
 
