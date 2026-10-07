@@ -1,4 +1,5 @@
 # GodotSaveKit Lite — 1.0.1
+[Paid GodotSaveKit (full version)](https://mustafawave286.gumroad.com/l/ucpdfx)
 
 A small, free Dictionary-to-JSON save helper for Godot 4.x. One implicit save, four static methods, no autoload or scene restoration.
 
